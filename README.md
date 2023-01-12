@@ -33,9 +33,7 @@ Using the Model
 INPUT AND OUTPUT FORMAT
 
 Input: The sentiment(contains the polarity of the tweet(0=negative,1=positive)) and text fields(the text of the tweet(Lyx is cool))
-
 Output:        text                sentiment
-
 0         I hate twitter           Negative
 1     May the Force be with you    Positive
 2       I don't feel so good       Negative
