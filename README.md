@@ -3,11 +3,11 @@
 Depression is one of the major health concerns globally. Each year, millions of people commit suicide due to depression and poor mental health, in order to save the lives of at least a few people, we chose this problem. This would reduce the mental depression of a person by finding his/her state of mind and can offer valuable and accurate insights into one ‘s mental health much earlier than conventional methods.
 
 
-## COLLECT THE DATA
+### COLLECT THE DATA
 
 Twitter had provided it's api for developer to access it's data before 2006, so we accessed the tweets to form a dataset for our project.
 
-## ANALYZE THE DATA
+### ANALYZE THE DATA
 
 The dataset contains the following 6 fields:
 
@@ -18,7 +18,7 @@ flag: The query (lyx). If there is no query, then this value is NO_QUERY.
 user: the user that tweeted (robotickilldozr)
 text: the text of the tweet (Lyx is cool)
 
-## INFER THE DATA
+### INFER THE DATA
 
 Importing dataset
 Preprocessing Text
@@ -30,11 +30,11 @@ Creating and Evaluating Models
 Saving the Models
 Using the Model
 
-## INPUT AND OUTPUT FORMAT
+### INPUT AND OUTPUT FORMAT
 
 Input: The sentiment(contains the polarity of the tweet(0=negative,1=positive)) and text fields(the text of the tweet(Lyx is cool))
 
-######        Text                  Sentiment 
+######        Text       \t\t\t           Sentiment 
 1.         I hate twitter           Negative
 2.     May the Force be with you    Positive
 3.      I don't feel so good        Negative
